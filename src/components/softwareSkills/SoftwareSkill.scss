@@ -1,0 +1,61 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline > i {
+  color: $subTitle;
+}
+
+.software-skill-inline > i:hover {
+  color: $skillsColor;
+}
+.software-skill-inline > p {
+  color: $subTitle;
+  font-size: 10px;
+}
+.software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
+.fa-redux {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/redux.png);
+}
+
+.fa-redux:hover {
+  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
+}
+.fa-ts {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/typescript.png);
+}
+
+.fa-ts:hover {
+  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
+}
+.fa-mui {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/material-ui.png);
+}
+
+.fa-mui:hover {
+  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
+}
