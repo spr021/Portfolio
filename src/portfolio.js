@@ -151,14 +151,14 @@ const workExperiences = {
       company: "Self employed",
       companylogo: require("./assets/images/freelancer.png"),
       date: "August 2019 – February 2020",
-      desc: "‌Building Web applications And Work on myself to create knowledge and CV.",
+      desc: "‌Building web applications and grow my skills to create knowledge and CV.",
     },
     {
       role: "Front-End Developer",
       company: "Hadish Sabz Parse",
       companylogo: require("./assets/images/hadish-sabz.png"),
       date: "March 2020 – August 2021",
-      desc: "create several project and manage some of these. some of my duty was maintenance code, code review, handle team task and ..."
+      desc: "Comprehensive sales system web application. Developed with ReactJs and TypeScript."
     }
   ]
 };
