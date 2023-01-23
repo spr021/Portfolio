@@ -25,7 +25,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/spr021",
-  linkedin: "https://www.linkedin.com/in/saber-pourrahimi-534795192/",
+  linkedin: "https://www.linkedin.com/in/saber-pourrahimi/",
   gmail: "saber.pourrahimi.1999@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/11072707/saber-pourrahimi",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -53,15 +53,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -73,15 +73,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-ts"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "redux",
+      skillName: "Next.js",
+      fontAwesomeClassname: "fab fa-nextjs"
+    },
+    {
+      skillName: "Redux",
       fontAwesomeClassname: "fab fa-redux"
     },
     {
-      skillName: "mateial ui",
+      skillName: "Mateial UI",
       fontAwesomeClassname: "fab fa-mui"
     },
     {
@@ -89,13 +93,9 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -148,10 +148,10 @@ const workExperiences = {
   experience: [
     {
       role: "Front End Developer",
-      company: "Self employed",
-      companylogo: require("./assets/images/freelancer.png"),
-      date: "August 2019 – February 2020",
-      desc: "‌Building web applications and grow my skills to create knowledge and CV.",
+      company: "Taaghche",
+      companylogo: require("./assets/images/taaghche.webp"),
+      date: "Jan 2022 – Present",
+      desc: "Develop and maintain ownership of web app projects with use of edge technologies such as NextJs.",
     },
     {
       role: "Front-End Developer",
@@ -159,7 +159,7 @@ const workExperiences = {
       companylogo: require("./assets/images/hadish-sabz.png"),
       date: "March 2020 – August 2021",
       desc: "Comprehensive sales system web application. Developed with ReactJs and TypeScript."
-    }
+    },
   ]
 };
 
@@ -178,22 +178,44 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/panoramic.png"),
-      projectName: "Panoramic",
-      projectDesc: "aplication for sales TVs",
+      image: require("./assets/images/taaghche.webp"),
+      projectName: "Taaghche",
+      projectDesc: "Aplication for reading and listening E-Book",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://app.panoramic.co.ir/"
+          url: "https://taaghche.com/"
         }
         //  you can add extra buttons here.
+      ]
+    },{
+      image: require("./assets/images/taaghche.webp"),
+      projectName: "Panext",
+      projectDesc: "Aplication for E-Book publisher in Taaghche",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://publisher.taaghche.ir/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/panoramic.png"),
+      projectName: "Panoramic",
+      projectDesc: "Aplication for sales TVs",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://panoramic.ir/"
+        }
       ]
     },
     {
       image: require("./assets/images/hadish-sabz.png"),
       projectName: "Hadish Sabz Selse System",
       projectDesc: "Supervise and perform all internal sales processes of the company",
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -219,7 +241,7 @@ const achievementSection = {
         },
         {
           name: "UTech Academy",
-          url: "https://home.utech-academy.ir/"
+          url: "https://ai.utech-academy.ir/"
         }
       ]
     },
@@ -311,7 +333,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+(98) 912 956 8749",
+  number: "+(49) 15753415136",
   email_address: "saber.pourrahimi.1999@gmail.com"
 };
 

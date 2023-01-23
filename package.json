@@ -1,7 +1,7 @@
 {
   "homepage": "https://saberpourrahimi.ir",
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
