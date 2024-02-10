@@ -15,7 +15,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fa fa-github"></i>
           <span></span>
         </a>
       ) : null}
@@ -27,7 +27,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          <i className="fa fa-linkedin"></i>
           <span></span>
         </a>
       ) : null}
@@ -39,7 +39,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <i className="fa fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -51,7 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <i className="fa fa-gitlab"></i>
           <span></span>
         </a>
       ) : null}
@@ -63,7 +63,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook-f"></i>
+          <i className="fa fa-facebook-f"></i>
           <span></span>
         </a>
       ) : null}
@@ -75,7 +75,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-instagram"></i>
+          <i className="fa fa-instagram"></i>
           <span></span>
         </a>
       ) : null}
@@ -87,7 +87,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
+          <i className="fa fa-twitter"></i>
           <span></span>
         </a>
       ) : null}
@@ -99,7 +99,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <i className="fa fa-medium"></i>
           <span></span>
         </a>
       ) : null}
@@ -111,7 +111,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <i className="fa fa-stack-overflow"></i>
           <span></span>
         </a>
       ) : null}
@@ -123,7 +123,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-kaggle"></i>
+          <i className="fa fa-kaggle"></i>
           <span></span>
         </a>
       ) : null}

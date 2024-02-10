@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="My resume"
+                    text="See my resume"
                     newTab={true}
                     href={greeting.resumeLink}
                   />
@@ -56,7 +56,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src="./images/manOnTable.svg"
               ></img>
             )}
           </div>
