@@ -92,7 +92,7 @@ const skillsSection = {
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fa firebase"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -106,13 +106,13 @@ const educationInfo = {
       schoolName: "Amir Kabir University",
       logo: require("./assets/images/amirkabir.png"),
       subHeader: "Bachelor of Science in Electrical Engineering",
-      duration: "September 2017 - June 2021",
+      duration: "September 2017 - June 2021"
     },
     {
       schoolName: "Allame Heli 7",
       logo: require("./assets/images/sampad.png"),
       subHeader: "Diploma of Science in Math and Physics",
-      duration: "September 2013 - June 2017",
+      duration: "September 2013 - June 2017"
     }
   ]
 };
@@ -148,7 +148,7 @@ const workExperiences = {
       company: "Taaghche",
       companylogo: require("./assets/images/taaghche.webp"),
       date: "Jan 2022 – Jun 2023",
-      desc: "Develop and maintain ownership of web app projects with use of edge technologies such as NextJs.",
+      desc: "Develop and maintain ownership of web app projects with use of edge technologies such as NextJs."
     },
     {
       role: "Front-End Developer",
@@ -156,7 +156,7 @@ const workExperiences = {
       companylogo: require("./assets/images/hadish-sabz.png"),
       date: "March 2020 – August 2021",
       desc: "Comprehensive sales system web application. Developed with ReactJs and TypeScript."
-    },
+    }
   ]
 };
 
@@ -185,7 +185,8 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },{
+    },
+    {
       image: require("./assets/images/taaghche.webp"),
       projectName: "Panext",
       projectDesc: "Aplication for E-Book publisher in Taaghche",
@@ -211,8 +212,9 @@ const bigProjects = {
     {
       image: require("./assets/images/hadish-sabz.png"),
       projectName: "Hadish Sabz Selse System",
-      projectDesc: "Supervise and perform all internal sales processes of the company",
-    },
+      projectDesc:
+        "Supervise and perform all internal sales processes of the company"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -244,8 +246,7 @@ const achievementSection = {
     },
     {
       title: "Startup Workshop",
-      subtitle:
-        "Participate in the workshop of Amir Kabir Innovation Center.",
+      subtitle: "Participate in the workshop of Amir Kabir Innovation Center.",
       image: require("./assets/images/amirkabir.png"),
       footerLink: [
         {
@@ -257,13 +258,14 @@ const achievementSection = {
 
     {
       title: "Web Developer",
-      subtitle: "First Place in Web Programming Course, University of Science and Technology, Tehran.",
+      subtitle:
+        "First Place in Web Programming Course, University of Science and Technology, Tehran.",
       image: require("./assets/images/elmosanat.png"),
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1kY3YJAiDlZqAT0f_Wv2jTc3sHEr8qMRr/view?usp=sharing"
-        },
+        }
       ]
     }
   ],
