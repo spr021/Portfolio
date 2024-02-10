@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Front-End Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1_vu02uH8KoG6hfpG_LJOHDQPU4lB3Yni5HUkZpEyvkw/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1jedhmcSZlvw3aOHTK_Es-rGqT-M0NazQ4rpUG2NVrW0/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,57 +44,54 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase / SupaBase" /* / AWS / Digital Ocean */
+      "⚡ Integration of third party services such as Firebase" /* / AWS / Digital Ocean */
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
       skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fa html5"
     },
     {
       skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fa css3"
     },
     {
       skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fa sass"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fa js"
     },
     {
       skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-ts"
+      fontAwesomeClassname: "fa ts"
     },
     {
       skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fa react"
     },
     {
       skillName: "Next.js",
-      fontAwesomeClassname: "fab fa-nextjs"
+      fontAwesomeClassname: "fa nextjs"
     },
     {
       skillName: "Redux",
-      fontAwesomeClassname: "fab fa-redux"
+      fontAwesomeClassname: "fa redux"
     },
     {
       skillName: "Mateial UI",
-      fontAwesomeClassname: "fab fa-mui"
+      fontAwesomeClassname: "fa mui"
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fa npm"
     },
     {
       skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fa firebase"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -150,7 +147,7 @@ const workExperiences = {
       role: "Front End Developer",
       company: "Taaghche",
       companylogo: require("./assets/images/taaghche.webp"),
-      date: "Jan 2022 – Present",
+      date: "Jan 2022 – Jun 2023",
       desc: "Develop and maintain ownership of web app projects with use of edge technologies such as NextJs.",
     },
     {
