@@ -29,44 +29,76 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
-.fa-redux {
+.html5 {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/html5.png);
+}
+.css3 {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/css3.png);
+
+}
+.sass {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/sass.png);
+
+}
+.js {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/javascript.png);
+
+}
+.redux {
   width: 42px;
   height: 44px;
   background-size: contain;
   background-image: url(../../assets/images/redux.png);
 }
 
-.fa-redux:hover {
-  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
-}
-.fa-ts {
+.ts {
   width: 42px;
   height: 44px;
   background-size: contain;
   background-image: url(../../assets/images/typescript.png);
 }
+.react {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/reactjs.png);
 
-.fa-ts:hover {
-  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
 }
-.fa-mui {
+.mui {
   width: 42px;
   height: 44px;
   background-size: contain;
   background-image: url(../../assets/images/material-ui.png);
 }
+.npm {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/npm.png);
 
-.fa-mui:hover {
-  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
 }
+.firebase {
+  width: 42px;
+  height: 44px;
+  background-size: contain;
+  background-image: url(../../assets/images/firebase.png);
 
-.fa-nextjs {
+}
+.nextjs {
   width: 42px;
   height: 44px;
   background-size: contain;
   background-image: url(../../assets/images/nextjs.png);
-}
-
-.fa-nextjs:hover {
-  filter: invert(37%) sepia(48%) saturate(6195%) hue-rotate(234deg) brightness(99%) contrast(86%);
 }
