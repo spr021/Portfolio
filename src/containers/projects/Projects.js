@@ -1,5 +1,4 @@
 import React, {useContext, useEffect, useMemo, useState} from "react";
-import {Fade} from "react-reveal";
 import "./Project.scss";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -147,144 +146,142 @@ export default function Projects() {
       className={isDark ? "opensource-portal dark-portal" : "opensource-portal"}
       id="opensource"
     >
-      <Fade bottom duration={700} distance="24px">
-        <div className="portal-shell">
-          <div className="portal-heading">
-            <div>
-              <p className="portal-eyebrow">
-                <span /> Open source index
-              </p>
-              <h2>{openSource.title}</h2>
-            </div>
-            <p className="portal-intro">{openSource.subtitle}</p>
+      <div className="portal-shell">
+        <div className="portal-heading">
+          <div>
+            <p className="portal-eyebrow">
+              <span /> Open source index
+            </p>
+            <h2>{openSource.title}</h2>
           </div>
+          <p className="portal-intro">{openSource.subtitle}</p>
+        </div>
 
-          {featured && (
-            <article className="featured-project">
-              <div className="featured-copy">
-                <div className="featured-label">
-                  <span>Featured project</span>
-                  <span>01</span>
+        {featured && (
+          <article className="featured-project">
+            <div className="featured-copy">
+              <div className="featured-label">
+                <span>Featured project</span>
+                <span>01</span>
+              </div>
+              <div>
+                <p className="featured-kicker">Mission data, made visual.</p>
+                <h3>{featured.name}</h3>
+                <p className="featured-description">{featured.description}</p>
+                <div className="featured-tags">
+                  {featured.tags.map(tag => (
+                    <span key={tag}>{tag}</span>
+                  ))}
                 </div>
-                <div>
-                  <p className="featured-kicker">Mission data, made visual.</p>
-                  <h3>{featured.name}</h3>
-                  <p className="featured-description">{featured.description}</p>
-                  <div className="featured-tags">
-                    {featured.tags.map(tag => (
-                      <span key={tag}>{tag}</span>
-                    ))}
-                  </div>
-                </div>
-                <div className="featured-actions">
+              </div>
+              <div className="featured-actions">
+                <a
+                  href={featured.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GithubIcon /> View source <ArrowIcon />
+                </a>
+                {featured.demo && (
                   <a
-                    href={featured.url}
+                    href={featured.demo}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <GithubIcon /> View source <ArrowIcon />
+                    Live project <ArrowIcon />
                   </a>
-                  {featured.demo && (
-                    <a
-                      href={featured.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Live project <ArrowIcon />
-                    </a>
-                  )}
-                </div>
+                )}
               </div>
-              <div className="featured-visual">
-                <div className="visual-caption">
-                  <span>React / SpaceX API</span>
-                  <span>Launch explorer</span>
-                </div>
-                <img
-                  src={featured.image}
-                  alt="Space-X launch explorer interface"
-                />
+            </div>
+            <div className="featured-visual">
+              <div className="visual-caption">
+                <span>React / SpaceX API</span>
+                <span>Launch explorer</span>
               </div>
-            </article>
-          )}
+              <img
+                src={featured.image}
+                alt="Space-X launch explorer interface"
+              />
+            </div>
+          </article>
+        )}
 
-          <div className="project-explorer">
-            <div className="explorer-heading">
-              <div>
-                <p className="portal-eyebrow">
-                  <span /> Project directory
-                </p>
-                <h3>Explore the collection</h3>
-              </div>
-              <label className="project-search">
-                <span className="visually-hidden">Search projects</span>
-                <svg viewBox="0 0 20 20" aria-hidden="true">
-                  <circle cx="8.5" cy="8.5" r="5.5" />
-                  <path d="m13 13 4 4" />
-                </svg>
-                <input
-                  type="search"
-                  value={query}
-                  onChange={event => setQuery(event.target.value)}
-                  placeholder="Search projects or tech"
-                />
-              </label>
+        <div className="project-explorer">
+          <div className="explorer-heading">
+            <div>
+              <p className="portal-eyebrow">
+                <span /> Project directory
+              </p>
+              <h3>Explore the collection</h3>
             </div>
-            <div
-              className="project-filters"
-              role="group"
-              aria-label="Filter projects by category"
-            >
-              {categories.map(category => (
-                <button
-                  key={category}
-                  type="button"
-                  className={activeCategory === category ? "active" : ""}
-                  onClick={() => setActiveCategory(category)}
-                >
-                  {category}
-                  <span>
-                    {category === "All"
-                      ? projects.length - 1
-                      : projects.filter(
-                          project =>
-                            project.category === category &&
-                            project.name !== openSource.featuredProject
-                        ).length}
-                  </span>
-                </button>
-              ))}
-            </div>
-            <div className="portal-project-grid">
-              {visibleProjects.map(project => (
-                <ProjectCard project={project} key={project.name} />
-              ))}
-            </div>
-            {visibleProjects.length === 0 && (
-              <div className="project-empty">
-                <p>No projects match that search yet.</p>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setQuery("");
-                    setActiveCategory("All");
-                  }}
-                >
-                  Clear filters
-                </button>
-              </div>
-            )}
-            <a
-              className="all-projects-link"
-              href={socialMediaLinks.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Browse every repository on GitHub <ArrowIcon />
-            </a>
+            <label className="project-search">
+              <span className="visually-hidden">Search projects</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <circle cx="8.5" cy="8.5" r="5.5" />
+                <path d="m13 13 4 4" />
+              </svg>
+              <input
+                type="search"
+                value={query}
+                onChange={event => setQuery(event.target.value)}
+                placeholder="Search projects or tech"
+              />
+            </label>
           </div>
+          <div
+            className="project-filters"
+            role="group"
+            aria-label="Filter projects by category"
+          >
+            {categories.map(category => (
+              <button
+                key={category}
+                type="button"
+                className={activeCategory === category ? "active" : ""}
+                onClick={() => setActiveCategory(category)}
+              >
+                {category}
+                <span>
+                  {category === "All"
+                    ? projects.length - 1
+                    : projects.filter(
+                        project =>
+                          project.category === category &&
+                          project.name !== openSource.featuredProject
+                      ).length}
+                </span>
+              </button>
+            ))}
+          </div>
+          <div className="portal-project-grid">
+            {visibleProjects.map(project => (
+              <ProjectCard project={project} key={project.name} />
+            ))}
+          </div>
+          {visibleProjects.length === 0 && (
+            <div className="project-empty">
+              <p>No projects match that search yet.</p>
+              <button
+                type="button"
+                onClick={() => {
+                  setQuery("");
+                  setActiveCategory("All");
+                }}
+              >
+                Clear filters
+              </button>
+            </div>
+          )}
+          <a
+            className="all-projects-link"
+            href={socialMediaLinks.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Browse every repository on GitHub <ArrowIcon />
+          </a>
         </div>
-      </Fade>
+      </div>
     </section>
   );
 }
