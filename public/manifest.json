@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio",
-  "name": "Portfolio",
+  "short_name": "Saber Portfolio",
+  "name": "Saber Pourrahimi — Open Source Portfolio",
   "icons": [
     {
       "src": "/images/favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "theme_color": "#5865f2",
+  "background_color": "#f3f1eb"
 }

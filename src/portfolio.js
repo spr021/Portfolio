@@ -176,6 +176,200 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  title: "Open source is where the work lives.",
+  subtitle:
+    "Web products, React libraries, games, developer tools, and experiments — built in public and ready to explore.",
+  githubUsername: "spr021",
+  featuredProject: "Space-X",
+  projects: [
+    {
+      name: "Space-X",
+      description:
+        "A focused React experience for exploring SpaceX launches, mission details, and upcoming flights.",
+      url: "https://github.com/spr021/Space-X",
+      demo: "https://spr021.github.io/Space-X/",
+      category: "Apps",
+      language: "JavaScript",
+      tags: ["React", "SCSS", "Axios"],
+      image: require("./assets/images/space-x-preview.png"),
+      accent: "#7c8cf8"
+    },
+    {
+      name: "Clicker",
+      description:
+        "An endless record-chasing browser game built as a fast, playful Next.js experience.",
+      url: "https://github.com/spr021/clicker",
+      demo: "https://clicker-pi-ashen.vercel.app",
+      category: "Games",
+      language: "JavaScript",
+      tags: ["Next.js", "Game", "Vercel"],
+      accent: "#ff6b4a"
+    },
+    {
+      name: "useSortable",
+      description:
+        "A reusable React hook for sorting, searching, and bookmarking data collections.",
+      url: "https://github.com/spr021/useSortable",
+      demo: "https://www.npmjs.com/package/use-sortable",
+      category: "Libraries",
+      language: "TypeScript",
+      tags: ["React Hooks", "npm", "MIT"],
+      accent: "#e84f8a"
+    },
+    {
+      name: "Cinema Seat",
+      description:
+        "An open-source cinema reservation platform spanning React Native, Expo, Next.js, and a shared UI kit.",
+      url: "https://github.com/spr021/Cinema-Seat",
+      category: "Apps",
+      language: "TypeScript",
+      tags: ["Turborepo", "Expo", "Next.js"],
+      accent: "#f0b43c"
+    },
+    {
+      name: "S-Note",
+      description:
+        "A TypeScript and React browser extension for keeping useful notes close at hand.",
+      url: "https://github.com/spr021/S-Note",
+      category: "Apps",
+      language: "TypeScript",
+      tags: ["Chrome Extension", "Vite", "React"],
+      accent: "#43b7a6"
+    },
+    {
+      name: "Docs",
+      description:
+        "A minimal document manager with Firebase authentication, storage, and a Material UI workspace.",
+      url: "https://github.com/spr021/Docs",
+      demo: "https://spr021.github.io/Docs/",
+      category: "Apps",
+      language: "JavaScript",
+      tags: ["React", "Firebase", "Material UI"],
+      accent: "#4d8df7"
+    },
+    {
+      name: "SRNote",
+      description:
+        "A mobile note-taking application developed with React Native.",
+      url: "https://github.com/spr021/SRNote",
+      category: "Apps",
+      language: "JavaScript",
+      tags: ["React Native", "Mobile", "Notes"],
+      accent: "#8a6fe8"
+    },
+    {
+      name: "GitHub User Activity",
+      description:
+        "A compact tool for looking up the latest public activity for any GitHub username.",
+      url: "https://github.com/spr021/github-user-activity",
+      category: "Tools",
+      language: "JavaScript",
+      tags: ["GitHub API", "CLI", "Activity"],
+      accent: "#6b7280"
+    },
+    {
+      name: "Mount Remote Storage",
+      description:
+        "A practical macOS guide for mounting remote WebDAV and cloud storage with rclone and macFUSE.",
+      url: "https://github.com/spr021/Mounting-Remote-Web-Server-Storage",
+      category: "Tools",
+      language: "Shell",
+      tags: ["macOS", "rclone", "WebDAV"],
+      accent: "#3f9d73"
+    },
+    {
+      name: "Git Multiple",
+      description:
+        "Shell tooling and notes for working cleanly with multiple Git identities.",
+      url: "https://github.com/spr021/Git-Multiple",
+      category: "Tools",
+      language: "Shell",
+      tags: ["Git", "Shell", "Workflow"],
+      accent: "#f06b45"
+    },
+    {
+      name: "TriviaQ",
+      description:
+        "A TypeScript trivia project exploring question flows, state, and interactive feedback.",
+      url: "https://github.com/spr021/TriviaQ",
+      category: "Games",
+      language: "TypeScript",
+      tags: ["Trivia", "TypeScript", "UI"],
+      accent: "#d45d9d"
+    },
+    {
+      name: "7 Wonders Duel",
+      description:
+        "A TypeScript implementation inspired by the strategic two-player board game.",
+      url: "https://github.com/spr021/7Wonder-Duel",
+      category: "Games",
+      language: "TypeScript",
+      tags: ["Board Game", "Strategy", "TypeScript"],
+      accent: "#c98b32"
+    },
+    {
+      name: "3D Landing",
+      description:
+        "An interactive landing-page experiment combining Next.js and Three.js.",
+      url: "https://github.com/spr021/3D-Landing",
+      category: "Experiments",
+      language: "TypeScript",
+      tags: ["Three.js", "Next.js", "3D"],
+      accent: "#7659dc"
+    },
+    {
+      name: "BuyMore",
+      description:
+        "A TypeScript product experiment focused on commerce interface patterns.",
+      url: "https://github.com/spr021/BuyMore",
+      category: "Experiments",
+      language: "TypeScript",
+      tags: ["Commerce", "Frontend", "TypeScript"],
+      accent: "#e85e63"
+    },
+    {
+      name: "Avocado React",
+      description:
+        "A React iteration of the Avocado project with a deployable browser preview.",
+      url: "https://github.com/spr021/Avocado-react",
+      demo: "https://spr021.github.io/Avocado-react/",
+      category: "Experiments",
+      language: "JavaScript",
+      tags: ["React", "Frontend", "Prototype"],
+      accent: "#78a84f"
+    },
+    {
+      name: "Avocado Native",
+      description:
+        "A React Native exploration of the Avocado product across mobile interfaces.",
+      url: "https://github.com/spr021/Avocado-react-native",
+      category: "Experiments",
+      language: "JavaScript",
+      tags: ["React Native", "Mobile", "Prototype"],
+      accent: "#82b65b"
+    },
+    {
+      name: "Avocado PWA",
+      description:
+        "A progressive-web-app version of Avocado exploring installable web experiences.",
+      url: "https://github.com/spr021/Avocado-react-pwa",
+      category: "Experiments",
+      language: "JavaScript",
+      tags: ["PWA", "React", "Offline"],
+      accent: "#97bd54"
+    },
+    {
+      name: "Portfolio",
+      description:
+        "The source behind this portfolio and its evolving open-source project portal.",
+      url: "https://github.com/spr021/Portfolio",
+      demo: "https://saberpourrahimi.ir",
+      category: "Experiments",
+      language: "JavaScript",
+      tags: ["React", "Portfolio", "Open Source"],
+      accent: "#5865f2"
+    }
+  ],
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
