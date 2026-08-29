@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Edit meta tags for SEO -->
-    <title>
-      Saber Pourrahimi | Front-End Engineer &amp; Open-Source Builder
-    </title>
+    <title>Saber Pourrahimi | Frontend Engineer &amp; Builder</title>
     <meta
       name="title"
-      content="Saber Pourrahimi | Front-End Engineer &amp; Open-Source Builder"
+      content="Saber Pourrahimi | Frontend Engineer &amp; Builder"
     />
     <meta
       name="description"
-      content="Explore Saber Pourrahimi's open-source web apps, React libraries, games, tools, and frontend experiments."
+      content="Explore Saber Pourrahimi's product work, open-source projects, playable browser experiments, and frontend notes."
     />
 
     <!-- Open Graph / Facebook -->
@@ -22,18 +20,18 @@
     <meta property="og:url" content="https://saberpourrahimi.ir" />
     <meta
       property="og:title"
-      content="Saber Pourrahimi | Open Source Is Where the Work Lives"
+      content="Saber Pourrahimi | Frontend Engineer &amp; Builder"
     />
     <meta
       property="og:description"
-      content="Explore open-source web products, React libraries, games, developer tools, and experiments."
+      content="A personal portal for selected product work, open source, playable experiments, and notes."
     />
     <meta property="og:image" content="https://saberpourrahimi.ir/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
-      content="Open source is where the work lives — Saber Pourrahimi, Front-End Engineer"
+      content="Saber Pourrahimi — Frontend engineer, open-source builder, and playful product thinker"
     />
 
     <!-- Twitter -->
@@ -41,11 +39,11 @@
     <meta property="twitter:url" content="https://saberpourrahimi.ir" />
     <meta
       property="twitter:title"
-      content="Saber Pourrahimi | Open Source Is Where the Work Lives"
+      content="Saber Pourrahimi | Frontend Engineer &amp; Builder"
     />
     <meta
       property="twitter:description"
-      content="Explore open-source web products, React libraries, games, developer tools, and experiments."
+      content="A personal portal for selected product work, open source, playable experiments, and notes."
     />
     <meta
       property="twitter:image"
@@ -53,7 +51,7 @@
     />
     <meta
       property="twitter:image:alt"
-      content="Open source is where the work lives — Saber Pourrahimi, Front-End Engineer"
+      content="Saber Pourrahimi — Frontend engineer, open-source builder, and playful product thinker"
     />
 
     <meta name="msapplication-TileColor" content="#5865f2" />
@@ -92,21 +90,6 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <link
-      rel="preload"
-      href="/static/media/Montserrat-Regular.ee653992.ttf"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="/static/media/Agustina.21f233e1.woff"
-      as="font"
-      type="font/woff"
-      crossorigin
-    />
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135618960-2"></script>
     <script>
@@ -135,6 +118,14 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      (function () {
+        var redirect = new URLSearchParams(window.location.search).get("p");
+        if (redirect) {
+          window.history.replaceState({}, "", redirect);
+        }
+      })();
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
