@@ -14,7 +14,7 @@ function useLocalClock() {
     const update = () => {
       setTime(
         new Intl.DateTimeFormat("en-GB", {
-          timeZone: "Europe/Amsterdam",
+          timeZone: "Europe/Berlin",
           hour: "2-digit",
           minute: "2-digit",
           hour12: false
@@ -47,15 +47,15 @@ export function HomePage() {
       <section className="home-hero">
         <div className="availability-line">
           <span className="availability-dot" />
-          <span>Frontend engineer in the Netherlands</span>
-          <span className="local-time">AMS {time}</span>
+          <span>Frontend engineer in the Berlin</span>
+          <span className="local-time">BER {time}</span>
         </div>
         <div className="hero-title-wrap">
           <p className="hero-index">Portfolio / 2026</p>
           <h1>
             I build digital
             <br />
-            things people <em>want</em>
+            things people <br /><em>want</em>
             <br />
             to explore.
           </h1>
@@ -68,7 +68,7 @@ export function HomePage() {
         </div>
         <div className="hero-bottom">
           <p>
-            I&apos;m Saber Pourrahimi—an engineer who turns product ideas into
+            I&apos;m Saber Pourrahimi an engineer who turns product ideas into
             clear, responsive, and slightly unexpected web experiences.
           </p>
           <div className="hero-actions">
