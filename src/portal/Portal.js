@@ -191,7 +191,7 @@ function Footer() {
           <br />
           making simpler?
         </h2>
-        <a href="mailto:saber.pourrahimi.1999@gmail.com" className="round-link">
+        <a href="mailto:saber@pourrahimi.com" className="round-link">
           Let&apos;s talk <Arrow />
         </a>
       </div>
@@ -212,7 +212,7 @@ function Footer() {
           >
             LinkedIn
           </a>
-          <a href="mailto:saber.pourrahimi.1999@gmail.com">Email</a>
+          <a href="mailto:saber@pourrahimi.com">Email</a>
         </div>
         <button
           type="button"

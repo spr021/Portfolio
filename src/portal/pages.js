@@ -862,10 +862,10 @@ export function AboutPage() {
             hello—my inbox is open.
           </p>
         </div>
-        <a href="mailto:saber.pourrahimi.1999@gmail.com">
-          saber.pourrahimi.1999
+        <a href="mailto:saber@pourrahimi.com">
+          saber
           <br />
-          @gmail.com <Arrow />
+          @pourrahimi.com <Arrow />
         </a>
       </section>
     </div>

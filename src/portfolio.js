@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/spr021",
   linkedin: "https://www.linkedin.com/in/saber-pourrahimi/",
-  gmail: "saber.pourrahimi.1999@gmail.com",
+  gmail: "saber@pourrahimi.com",
   stackoverflow: "https://stackoverflow.com/users/11072707/saber-pourrahimi",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -539,7 +539,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+(49) 15753415136",
-  email_address: "saber.pourrahimi.1999@gmail.com"
+  email_address: "saber@pourrahimi.com"
 };
 
 // Twitter Section
