@@ -569,10 +569,46 @@ export function WorkDetailPage({slug}) {
         </div>
       </section>
       <section className="detail-showcase work-showcase">
-        <div className="work-logo-stage">
-          <img src={project.image} alt={`${project.title} logo`} />
-          <span>{project.type}</span>
-        </div>
+        {project.uiImage ? (
+          <div className="work-visual-stage">
+            <a
+              className="work-visual-link"
+              href={project.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Visit ${project.title}`}
+            >
+              <img
+                src={project.uiImage.src}
+                alt={project.uiImage.alt}
+                loading="lazy"
+              />
+            </a>
+            <div className="work-visual-chips">
+              <a
+                className="work-visual-chip"
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit {project.uiImage.url} <Arrow />
+              </a>
+              {project.note && (
+                <Link
+                  className="work-visual-chip"
+                  to={`/notes/${project.note}`}
+                >
+                  Read about this experience <Arrow />
+                </Link>
+              )}
+            </div>
+          </div>
+        ) : (
+          <div className="work-logo-stage">
+            <img src={project.image} alt={`${project.title} logo`} />
+            <span>{project.type}</span>
+          </div>
+        )}
       </section>
       <section className="detail-story">
         <aside>

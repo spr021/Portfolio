@@ -112,6 +112,12 @@ export const workProjects = [
     timeframe: "2022 — 2023",
     color: "#ff6f52",
     image: require("../assets/images/taaghche.webp"),
+    uiImage: {
+      src: require("../assets/images/taaghche-site.jpg"),
+      alt: "Taaghche online bookstore homepage with the audiobook hero banner",
+      url: "taaghche.com"
+    },
+    note: "shipping-for-a-nations-reading-habit",
     website: "https://taaghche.com/",
     headline: "A calmer way to find, read, and listen to books.",
     summary:
@@ -137,6 +143,12 @@ export const workProjects = [
     timeframe: "2022 — 2023",
     color: "#5865f2",
     image: require("../assets/images/taaghche.webp"),
+    uiImage: {
+      src: require("../assets/images/panext-login.jpg"),
+      alt: "Taaghche publisher panel login screen",
+      url: "publisher.taaghche.ir"
+    },
+    note: "designing-for-dense-work",
     website: "https://publisher.taaghche.ir/",
     headline: "Publishing tools that make complex work feel ordered.",
     summary:
@@ -162,6 +174,7 @@ export const workProjects = [
     timeframe: "2021",
     color: "#eeb647",
     image: require("../assets/images/panoramic.png"),
+    note: "the-storefront-is-a-conversation",
     website: "https://panoramic.ir/",
     headline: "A direct path from product interest to purchase.",
     summary:
@@ -187,6 +200,12 @@ export const workProjects = [
     timeframe: "2020 — 2021",
     color: "#3faa8c",
     image: require("../assets/images/hadish-sabz.png"),
+    uiImage: {
+      src: require("../assets/images/hadish-site.jpg"),
+      alt: "Hadish Sabz Parseh corporate website hero",
+      url: "hadishesabz.com"
+    },
+    note: "typescript-for-business-logic",
     headline: "One operational view of an entire sales process.",
     summary:
       "A comprehensive internal application for supervising and running company sales workflows.",
@@ -307,6 +326,110 @@ export const articles = [
       {
         heading: "Leave room for change",
         body: "A portal is a living system. Projects, notes, and experiments can be added without redesigning the entire identity, while the home page remains a concise map of what matters now."
+      }
+    ]
+  },
+  {
+    slug: "shipping-for-a-nations-reading-habit",
+    number: "05",
+    category: "Experience",
+    title: "Shipping for a nation's reading habit",
+    dek: "What building product interfaces for Taaghche taught me about serving a huge, everyday audience.",
+    readTime: "5 min",
+    date: "November 03, 2026",
+    color: "#ff6f52",
+    intro:
+      "Taaghche is where millions of Iranian readers buy, download, and listen to books. Working on a product people open every day changes how you think about frontend work: the interface is never a demo, it is a habit someone relies on.",
+    sections: [
+      {
+        heading: "Right-to-left is a first-class layout",
+        body: "Working on a fully RTL product means every flex row, every padding shorthand, and every icon direction is a decision. The discipline that stuck with me: mirror the layout mentally before writing a single line, and never let a left-over LTR assumption survive code review."
+      },
+      {
+        heading: "Performance is a reading feature",
+        body: "A reading platform lives or dies on how fast a book appears. Heavy catalogue pages taught me to treat images, fonts, and route transitions as part of the reading experience itself — a slow shelf feels like a closed bookstore, no matter how good it looks."
+      },
+      {
+        heading: "Own a feature end to end",
+        body: "At Taaghche I developed and maintained web app projects with Next.js, and the ownership went beyond shipping tickets: watching how readers actually used a flow, then refining it, was where the real product work happened."
+      }
+    ]
+  },
+  {
+    slug: "designing-for-dense-work",
+    number: "06",
+    category: "Experience",
+    title: "Designing for dense work",
+    dek: "Lessons from the Taaghche publisher panel, where every screen had to respect people doing serious operational work.",
+    readTime: "4 min",
+    date: "November 03, 2026",
+    color: "#5865f2",
+    intro:
+      "The publisher panel sits behind Taaghche's storefront: the tools publishers use to upload books, manage metadata, run campaigns, and track sales. It is the kind of product where density is the point — and where every wasted pixel costs someone time.",
+    sections: [
+      {
+        heading: "Respect the operator",
+        body: "People using a workspace spend hours in it daily. They do not need delight sprinkled on top; they need predictable placement, fast keyboard paths, and states they can trust. I learned to optimize for the hundredth use, not the first."
+      },
+      {
+        heading: "Make state the interface",
+        body: "Dense forms, review workflows, and content lifecycles mean a row is never just a row — it is a book in one of many states. Turning each business state into a clear visual state did more for usability than any single feature."
+      },
+      {
+        heading: "Build patterns, not screens",
+        body: "With dozens of similar panels, one-off screens multiply complexity. Reusable table, filter, and form patterns kept the product coherent and made every new section cheaper to build than the last."
+      }
+    ]
+  },
+  {
+    slug: "the-storefront-is-a-conversation",
+    number: "07",
+    category: "Experience",
+    title: "The storefront is a conversation",
+    dek: "Building Panoramic's commerce experience taught me how every screen either advances or loses a purchase.",
+    readTime: "4 min",
+    date: "November 03, 2026",
+    color: "#eeb647",
+    intro:
+      "Panoramic sells television products through a responsive storefront. Commerce frontend work looks simple from the outside — list products, show details, check out — but each of those steps is a question the customer is silently asking, and the interface has to answer it.",
+    sections: [
+      {
+        heading: "Answer the next question",
+        body: "On a product page the customer is asking one thing: is this the right TV for me? Specifications, images, and price each answer part of it. Laying them out in the order people actually ask made the catalogue feel shorter than it was."
+      },
+      {
+        heading: "One journey, every screen",
+        body: "A responsive storefront is not two designs; it is one purchase journey tested at every width. Building mobile-first forced the important content forward and kept the path to checkout honest on any device."
+      },
+      {
+        heading: "Details decide trust",
+        body: "In commerce, small things compound: a button that reacts, a price that loads with the card, a form that explains itself. Each detail either builds the trust a purchase depends on or quietly spends it."
+      }
+    ]
+  },
+  {
+    slug: "typescript-for-business-logic",
+    number: "08",
+    category: "Experience",
+    title: "TypeScript for business logic",
+    dek: "What building Hadish Sabz's internal sales system taught me about modeling a company's workflow in the frontend.",
+    readTime: "5 min",
+    date: "November 03, 2026",
+    color: "#3faa8c",
+    intro:
+      "Hadish Sabz Parse needed one operational view of an entire sales process — quotes, inventory, supervision, reporting — in a single internal application. I built the frontend in React and TypeScript, and it became the clearest lesson I have had in turning business rules into interface states.",
+    sections: [
+      {
+        heading: "Model the domain before the screens",
+        body: "A sales process has roles, states, and transitions that the UI only visualizes. Getting those types right first meant the screens almost assembled themselves — and invalid states simply could not exist in the code."
+      },
+      {
+        heading: "Consistency is an architecture decision",
+        body: "Internal tools fragment when every workflow solves its own problems. Shared component structure and one way of representing a record kept the system feeling like one product instead of five."
+      },
+      {
+        heading: "Internal does not mean unpolished",
+        body: "The people using an internal system use it all day, every day. Clear states and honest feedback mattered more here than in any consumer project I have worked on — polish is respect for the operator."
       }
     ]
   }
