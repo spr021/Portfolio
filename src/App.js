@@ -74,7 +74,7 @@ function usePageMetadata(route) {
     } else if (route === "/play") {
       title = "Playable Lab | Saber Pourrahimi";
       description =
-        "Play small browser games built to explore interaction, feedback, and rhythm.";
+        "Play Clicker and Lumber Jack — two games designed, built, and shipped by Saber Pourrahimi.";
     } else if (route === "/notes") {
       title = "Frontend & Product Notes | Saber Pourrahimi";
       description =

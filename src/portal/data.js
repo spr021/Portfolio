@@ -28,14 +28,19 @@ const projectDetails = {
     year: "2024",
     status: "Playable",
     role: "Product & development",
-    statement: "A tiny game designed around one irresistible interaction.",
+    statement:
+      "A precision instrument that turns one moment into the whole game.",
     challenge:
-      "The goal was to build a browser game with almost no learning curve while still creating tension, momentum, and a reason to try one more round.",
+      "Most browser games bury a simple idea under layers of UI. The goal was the opposite: one rotating dial, one marked sector, and tension that comes entirely from timing — while still giving players a reason to try one more round.",
     approach:
-      "The loop is deliberately small: click, build a streak, chase the record. Immediate visual feedback and a fast reset keep every session frictionless.",
+      "The probe rotates on its own and the player strikes inside the marked sector at the right moment. Combos reward consecutive precision, the tempo rises with every success, and a global leaderboard turns each run into a record attempt.",
     outcome:
-      "A quick Next.js experiment that turns a single action into a playful, replayable challenge.",
-    highlights: ["Instant game loop", "Responsive input", "Deployed on Vercel"]
+      "A quick Next.js experiment shipped to Vercel with a live leaderboard, where a single interaction carries the entire game.",
+    highlights: [
+      "One-action game loop",
+      "Combo and tempo system",
+      "Global leaderboard"
+    ]
   },
   usesortable: {
     year: "2023",
@@ -307,6 +312,41 @@ export const articles = [
   }
 ];
 
+export const playableGames = [
+  {
+    slug: "lumber-jack",
+    number: "01",
+    title: "Lumber Jack",
+    status: "Live",
+    year: "2026",
+    color: "#eeb647",
+    image: require("../assets/images/lumber-jack-game.png"),
+    imageAlt: "Lumber Jack menu screen with the endless tree and leaderboard",
+    statement: "Chop fast, pick the safe side, and outlast the clock.",
+    description:
+      "A Timberman-style 2D reaction game built with Godot 4.4 — every sprite is drawn in code, no art assets. Chop from the side without a branch before the time bar drains, then compare your score on the global leaderboard. Ships to desktop, Android, iOS, and the browser.",
+    demo: "https://spr021.github.io/lumber-jack/",
+    source: "https://github.com/spr021/lumber-jack",
+    tags: ["Godot 4.4", "GDScript", "Web build", "Leaderboard"]
+  },
+  {
+    slug: "clicker",
+    number: "02",
+    title: "Clicker",
+    status: "Live",
+    year: "2024",
+    color: "#ff6f52",
+    image: require("../assets/images/clicker-game.png"),
+    imageAlt: "Clicker gameplay — the rotating probe dial with marked sectors",
+    statement: "One dial, one perfect moment, and a record that keeps moving.",
+    description:
+      "A precision-timing browser game: the probe rotates on its own, and a single well-timed strike on the marked sector keeps the run alive. Chain combos, ride the rising tempo, and post your score to the global leaderboard.",
+    demo: "https://clicker-pi-ashen.vercel.app",
+    source: "https://github.com/spr021/clicker",
+    tags: ["Next.js", "TypeScript", "Leaderboard", "Vercel"]
+  }
+];
+
 export const portalSections = [
   {
     path: "/work",
@@ -326,7 +366,7 @@ export const portalSections = [
     path: "/play",
     label: "Playable lab",
     short: "Play",
-    count: 3,
+    count: playableGames.length,
     color: "#eeb647"
   },
   {

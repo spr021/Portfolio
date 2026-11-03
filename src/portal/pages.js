@@ -55,7 +55,8 @@ export function HomePage() {
           <h1>
             I build digital
             <br />
-            things people <br /><em>want</em>
+            things people <br />
+            <em>want</em>
             <br />
             to explore.
           </h1>
@@ -117,7 +118,7 @@ export function HomePage() {
                   : section.path === "/open-source"
                   ? "Apps, libraries, tools, and experiments in public."
                   : section.path === "/play"
-                  ? "Browser-sized games made for immediate interaction."
+                  ? "Games I built myself, playable in the browser."
                   : "Field notes on products, code, and making things clear."}
               </p>
               <span className="map-arrow">
