@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c6f9aca0.css",
-    "main.js": "/static/js/main.bad883d7.js",
+    "main.js": "/static/js/main.9b8c4937.js",
     "static/media/space-x-preview.png": "/static/media/space-x-preview.ae84fe77e6516aaab4ed.png",
     "static/media/clicker-game.png": "/static/media/clicker-game.e44332f66f62844605df.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -14,10 +14,10 @@
     "static/media/taaghche.webp": "/static/media/taaghche.3cc41cdbed148b9c59fa.webp",
     "index.html": "/index.html",
     "main.c6f9aca0.css.map": "/static/css/main.c6f9aca0.css.map",
-    "main.bad883d7.js.map": "/static/js/main.bad883d7.js.map"
+    "main.9b8c4937.js.map": "/static/js/main.9b8c4937.js.map"
   },
   "entrypoints": [
     "static/css/main.c6f9aca0.css",
-    "static/js/main.bad883d7.js"
+    "static/js/main.9b8c4937.js"
   ]
 }
