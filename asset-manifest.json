@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c036d90.css",
-    "main.js": "/static/js/main.25eea81a.js",
+    "main.css": "/static/css/main.c6f9aca0.css",
+    "main.js": "/static/js/main.bad883d7.js",
     "static/media/space-x-preview.png": "/static/media/space-x-preview.ae84fe77e6516aaab4ed.png",
+    "static/media/clicker-game.png": "/static/media/clicker-game.e44332f66f62844605df.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/lumber-jack-game.png": "/static/media/lumber-jack-game.32ca9f69ce9db6782d5b.png",
     "static/media/sampad.png": "/static/media/sampad.d3f5eeb9ef0e6be1f80c.png",
     "static/media/Utech-Academy.png": "/static/media/Utech-Academy.132031eb927214c17c9b.png",
     "static/media/amirkabir.png": "/static/media/amirkabir.f8fad4dc1ca4384b35d4.png",
     "static/media/panoramic.png": "/static/media/panoramic.0c2a7d294388b1ae91c9.png",
     "static/media/taaghche.webp": "/static/media/taaghche.3cc41cdbed148b9c59fa.webp",
     "index.html": "/index.html",
-    "main.2c036d90.css.map": "/static/css/main.2c036d90.css.map",
-    "main.25eea81a.js.map": "/static/js/main.25eea81a.js.map"
+    "main.c6f9aca0.css.map": "/static/css/main.c6f9aca0.css.map",
+    "main.bad883d7.js.map": "/static/js/main.bad883d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c036d90.css",
-    "static/js/main.25eea81a.js"
+    "static/css/main.c6f9aca0.css",
+    "static/js/main.bad883d7.js"
   ]
 }
