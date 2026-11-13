@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.556c9e4e.css",
-    "main.js": "/static/js/main.5b6d9e50.js",
+    "main.js": "/static/js/main.809ce9d2.js",
     "static/media/space-x-preview.png": "/static/media/space-x-preview.ae84fe77e6516aaab4ed.png",
+    "static/media/make-defence-greater-game.png": "/static/media/make-defence-greater-game.7e0e3b1e163e2a111f0c.png",
     "static/media/clicker-game.png": "/static/media/clicker-game.e44332f66f62844605df.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/taaghche-site.jpg": "/static/media/taaghche-site.50d5d228fb435b60d5b0.jpg",
@@ -17,10 +18,10 @@
     "static/media/taaghche.webp": "/static/media/taaghche.3cc41cdbed148b9c59fa.webp",
     "index.html": "/index.html",
     "main.556c9e4e.css.map": "/static/css/main.556c9e4e.css.map",
-    "main.5b6d9e50.js.map": "/static/js/main.5b6d9e50.js.map"
+    "main.809ce9d2.js.map": "/static/js/main.809ce9d2.js.map"
   },
   "entrypoints": [
     "static/css/main.556c9e4e.css",
-    "static/js/main.5b6d9e50.js"
+    "static/js/main.809ce9d2.js"
   ]
 }
