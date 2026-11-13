@@ -24,14 +24,16 @@ function GameFeature({game, reversed}) {
           ))}
         </div>
         <div className="game-links">
-          <a
-            className="primary-link"
-            href={game.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Play {game.title} <Arrow />
-          </a>
+          {game.demo && (
+            <a
+              className="primary-link"
+              href={game.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Play {game.title} <Arrow />
+            </a>
+          )}
           <a
             className="text-link"
             href={game.source}
@@ -42,18 +44,25 @@ function GameFeature({game, reversed}) {
           </a>
         </div>
       </div>
-      <a
-        className="game-feature-visual"
-        href={game.demo}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`Play ${game.title} now`}
-      >
-        <img src={game.image} alt={game.imageAlt} />
-        <span>
-          Playable in the browser <Arrow />
-        </span>
-      </a>
+      {game.demo ? (
+        <a
+          className="game-feature-visual"
+          href={game.demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Play ${game.title} now`}
+        >
+          <img src={game.image} alt={game.imageAlt} />
+          <span>
+            Playable in the browser <Arrow />
+          </span>
+        </a>
+      ) : (
+        <div className="game-feature-visual">
+          <img src={game.image} alt={game.imageAlt} />
+          <span>In development — follow the source</span>
+        </div>
+      )}
     </article>
   );
 }
@@ -70,10 +79,11 @@ export default function PlayPage() {
         </h1>
         <div className="hero-side-copy">
           <p>
-            Two games I designed and developed end to end — from the first
-            interaction sketch to shipped builds running in the browser.
+            Three games I designed and developed end to end — from the first
+            interaction sketch to builds running in the browser. One is still on
+            the workbench.
           </p>
-          <span>No install. Pick one and play.</span>
+          <span>No install. Pick a live one and play.</span>
         </div>
       </section>
 

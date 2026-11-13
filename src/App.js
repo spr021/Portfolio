@@ -74,7 +74,7 @@ function usePageMetadata(route) {
     } else if (route === "/play") {
       title = "Playable Lab | Saber Pourrahimi";
       description =
-        "Play Clicker and Lumber Jack — two games designed, built, and shipped by Saber Pourrahimi.";
+        "Make Defence Greater, Lumber Jack, and Clicker — games designed and built end to end by Saber Pourrahimi, with one more on the workbench.";
     } else if (route === "/notes") {
       title = "Frontend & Product Notes | Saber Pourrahimi";
       description =

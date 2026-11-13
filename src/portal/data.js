@@ -437,8 +437,24 @@ export const articles = [
 
 export const playableGames = [
   {
-    slug: "lumber-jack",
+    slug: "make-defence-greater",
     number: "01",
+    title: "Make Defence Greater",
+    status: "In development",
+    year: "2026",
+    color: "#5865f2",
+    image: require("../assets/images/make-defence-greater-game.png"),
+    imageAlt:
+      "Make Defence Greater region select — the Aria Kingdom castle island with level banners and the play button",
+    statement: "Hold the realm through every wave, one tower at a time.",
+    description:
+      "A landscape tower-defence game for Android, built with Godot 4.7 and backed by Supabase cloud saves. The region map, level select, shop, equipment, and upgrade systems are already standing; the wave-defence core loop is being built right now.",
+    source: "https://github.com/spr021/make-defence-greater",
+    tags: ["Godot 4.7", "Android", "GDScript", "Supabase"]
+  },
+  {
+    slug: "lumber-jack",
+    number: "02",
     title: "Lumber Jack",
     status: "Live",
     year: "2026",
@@ -454,7 +470,7 @@ export const playableGames = [
   },
   {
     slug: "clicker",
-    number: "02",
+    number: "03",
     title: "Clicker",
     status: "Live",
     year: "2024",
